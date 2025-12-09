@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Heaven's Space</title>
+    <meta name="description"
+        content="Get in touch with Heaven's Space. Call, email, or WhatsApp us for your property needs in Sonipat.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+        }
+
+        .contact-form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Heaven's <span class="highlight">Space</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="areas.html">Areas</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section bg-light" style="padding-top: 120px; padding-bottom: 40px;">
+        <div class="container text-center">
+            <h1>Contact Us</h1>
+            <p class="lead">We are just a call or message away.</p>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+
+            <div class="contact-cards" style="margin-top: 0; margin-bottom: 60px;">
+                <div class="contact-card">
+                    <i class="fas fa-phone-volume"></i>
+                    <h4>Call/WhatsApp</h4>
+                    <p>+91 XXXXX XXXXX</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>support@heavenspace.com</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h3 class="text-center" style="margin-bottom: 20px;">Send us a Message</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name" style="display: block; margin-bottom: 8px; font-weight: 500;">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" style="display: block; margin-bottom: 8px; font-weight: 500;">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" style="display: block; margin-bottom: 8px; font-weight: 500;">Phone</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your Phone Number"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"
+                            style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-control"
+                            placeholder="I am interested in..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Send
+                        Message</button>
+                </form>
+            </div>
+
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20%F0%9F%91%8B%20Welcome%20to%20Heaven%E2%80%99s%20Space.%20Tell%20us%20what%20you%20are%20looking%20for%20%E2%80%94%20Buy%20%2F%20Sell%20%2F%20Rent."
+                    class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Heaven's Space. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
